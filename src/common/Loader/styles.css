@@ -1,0 +1,26 @@
+.loader__container {
+  margin: 40px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.loader {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 4px dashed rgb(124, 128, 0);
+  animation: rotate 4s infinite linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.2);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}

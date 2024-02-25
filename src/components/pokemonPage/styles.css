@@ -1,0 +1,23 @@
+.button {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+.button:active {
+  transform: scale(0.97);
+}
+
+.pokemon:hover {
+  transform: scale(1.05);
+}
+
+.footer-button {
+  width: 70px;
+  height: 30px;
+  margin-bottom: 5px;
+}
